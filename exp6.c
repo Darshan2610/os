@@ -100,3 +100,5 @@ lowest=10000;
 }
 printf("\nFile No\tFile Size \tBlock No\tBlock Size\tFragment"); 
 for(i=1;i<=nf && ff[i]!=0;i++)
+  printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,f[i],ff[i],b[ff[i]],frag[i]);
+}
