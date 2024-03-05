@@ -60,7 +60,7 @@ printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,f[i].ff[i],b[ff[i]],frag[i]);
 #define max 25
 void main()
 {
-int frag[max,b[max],f[max],i,j,nh,nf,temp, lowest=10000:
+int frag[max],b[max],f[max],i,j,nh,nf,temp, lowest=10000;
   static int bf[max],ff[max];
 
 printf("\nEnter the number of blocks:"); 
